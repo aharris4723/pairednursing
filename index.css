@@ -1,0 +1,155 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+
+.wrapper{
+	height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   /* border-bottom: 4px solid black;*/
+
+    
+
+}
+#logo-place-holder{
+
+   
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	background-image: url('mainlogo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 250% 250%;
+    padding: 1%;
+
+}
+
+#sub-title{
+    
+    
+	height: 48px;
+	width: 400px;
+	background-color: white;
+	padding: 1%;
+	
+
+
+}
+
+
+#sub-title2{
+	text-align: center;
+	font-size: 20pt;
+	font-family: roboto;
+	color: black;
+	/*padding-top: 10%;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+#border-under-navbar{
+	height: 200px;
+	width: 100%;
+	background-color: white;
+	border-top: 20px solid black;
+}
+.aboutus-wrapper{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-bottom: 0px solid black;
+}
+#picture-holder{
+
+	height: 100%;
+	width: 600px;
+	background-color: white;
+	background-image: url("pairednurseimg.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	
+    
+
+}
+
+
+#picture{
+
+	height: 400px;
+	
+	background-color: white;
+	border: 2px solid black;
+
+}
+#aboutus-text{
+	height: 200px;
+	width:500px;
+	background-color: white;
+
+}
+
+.whatWeDo-wrapper{
+	height: 5000px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: opx solid black;
+}
+
+.contactus{
+	height: 500px;
+	width: 100%;
+	background-color: red;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0px solid black;
+    background-image: url('contact.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-top: 10px solid black;
+}
+
+
